@@ -9,7 +9,7 @@ terraform {
   backend "s3" {
     bucket         = "tfstate-reverseesper"
     region         = "eu-west-1"
-    key            = "services/devops/networking/dev/eu-central-1.tfstate"
+    key            = "services/ewelink.tfstate"
     dynamodb_table = "terraform_locks"
   }
 }
